@@ -2,7 +2,8 @@
 {% import '_macro/post.swig' as post_template %}
 {% import '_macro/sidebar.swig' as sidebar_template %}
 
-{% block title %}{{ title }}{% if theme.index_with_subtitle and subtitle %} &mdash; {{ subtitle }}{% endif %}{% endblock %}
+{# {% block title %}{{ title }}{% if theme.index_with_subtitle and subtitle %} &mdash; {{ subtitle }}{% endif %}{% endblock %} #}
+{% block title %} {{ config.title }} - {{ theme.description }} {% endblock %}
 
 {% block page_class %}
   {% if is_home() %}page-home{% endif -%}
