@@ -62,3 +62,9 @@ More info: [Deployment](https://hexo.io/docs/deployment.html)
 </body>
 </html>
 ```
+```javascript
+  var ihubo = {
+    nickName  : "草依山",
+    site : "http://jser.me"
+  }
+```
