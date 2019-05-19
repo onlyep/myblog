@@ -10,6 +10,8 @@ description:
 目标元素：动态创建的元素，最终click事件需要绑定到该元素
 代理元素：动态创建的元素的父级元素，或者document,body等。
 
+<!-- more -->
+
 ## BUG情况
     
 当使用事件委托给【目标元素】添加 click 事件时，如果【代理元素】是 document或body，并且【目标元素】是默认不可点击的（如 div, span 等），此时click事件会失效。如果【目标元素】是可点击的（比如 button、a 标签），此时click事件还是有效的。

@@ -10,6 +10,7 @@ password: egg
 
 ![](/upload_image/image.jpg)
 
+<!-- more -->
 
 # git 命令行
 
